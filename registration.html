@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Youser - Home</title>
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!--  <link rel="stylesheet" type="text/css" href="css\main.css"> -->
+</head>
+
+<body>
+  <!-- Follow this tutorial: https://medium.freecodecamp.org/learn-bootstrap-4-in-30-minute-by-building-a-landing-page-website-guide-for-beginners-f64e03833f33 -->
+  <!-- navbar -->
+	<nav class="navbar navbar-expand-lg fixed-top">
+	<a class="navbar-brand" href="index.html">Youser</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+	<ul class="navbar-nav mr-4">
+		<li class="nav-item">
+			<a class="nav-link" data-value="blog" href="#">Login</a>
+		</li>
+	</ul>
+	</div>
+	</nav>
+	
+  <!-- header -->
+	<div class="registration container">
+    <div class="overlay-registration"></div>
+      <div class="container">
+      <div class="row">
+	    <div class="registration text-center col-lg-6 col-md-8 col-sm-12">
+	      <h2>Sign Up</h2>
+<!--	      <form action="/action_page.php" class="text-left">
+	        <input type="radio" name="candidate" >
+	        <label for="candidate"> Candidate</label><br>
+	        <input type ="radio" name="voter" >
+	        Voter<br>
+	        Email:<br>
+	        <input type="text" name="user_email" value ><br>
+	        Password<br>
+	        <input type="text" name="user_pw" value ><br>
+	      </form> 	      
+	      
+	      <a href="#">
+	        <button class="button btn-outline-secondary btn-lg">Sign Up</button>
+	      </a> -->
+	      
+	      <form action="actions_page.php">
+	        <fieldset class="form-group">
+	          <legend>User Type</legend>
+	          <div class="form-check form-check-inline">
+	            <label class="form-check-label">
+	              <input type="radio" class="form-check-input" value="option2" > Candidate </label>
+	          </div>
+	          <div class="form-check form-check-inline">
+	            <label class="form-check-label">
+	              <input type="radio" class="form-check-input"> Voter </label>
+	           </div>
+	        <div class="form-group">
+	          <legend for="user_email">Email Address</legend>
+	          <input type="email" class="form-control" placeholder="e.g example@youser.com" required><br>
+	          <small class="form-text text-muted"> We'll never share your email with anyone else </small>
+	        </div>
+	        <div class="form-group">
+	          <legend for="user_pw">Password</legend>
+	          <input type="password" class="form-control" placeholder="e.g passWord18" required><br>
+	        </div>
+	        <a href="#">
+	          <button class="button btn-outline-secondary btn-lg">Submit</button>
+	      </form>
+	    </div>
+	    	</a>
+<!-- Row 2  if needed
+		<div class="featured">
+			<div class="container">
+			  <div class="row">
+
+			  </div>
+			</div>
+		 </div>
+-->
+		  </div>
+      </div>
+	</div>
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src='js/main.js'></script>
+</body>
+
+</html>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
